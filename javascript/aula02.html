@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu  Primeiro Programa</title>
+   <style>
+    body{
+        background-color: rgb(198, 198, 199);
+        color: rgb(14, 22, 22);
+        font: normal 20pt Arial;
+          
+    }
+    h1{
+        color: green;
+    }
+    
+    p{
+        color: blue;
+    }
+    div{
+        color: brown;
+    }
+
+   </style>
+</head>
+<body>
+    <h1>Aula 02 </h1><br>
+    <p>manipulando o DOM</p>
+    <p>asasas</p>
+    <div id="curso">Curso de Javascript</div>
+   
+    <script>
+        var p1 = document.getElementsByTagName('p')[0]
+        //p1.style.color= 'yellow'
+       // document.write(p1.innerHTML)
+      // var id = document.getElementById('curso')
+      // id.style.color = 'gray'
+      // id.innerText = 'mudei o conteudo da div'
+      var d = document.querySelector('div#curso')
+      d.style.background = 'green'
+    
+    </script>
+    
+</body>
+</html>
